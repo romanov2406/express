@@ -5,7 +5,6 @@ export function TestMiddleware(
   res: Response,
   next: NextFunction
 ): void {
-  console.log("middelware function ==>>", req.body);
-
+  console.log("middleware function ==>>", req.body);
   next();
 }
